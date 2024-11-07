@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		84095F3E2CDCDB2E00B06AAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84095F1F2CDCDB2B00B06AAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84095F262CDCDB2C00B06AAB;
+			remoteInfo = LocalPushNotification;
+		};
+		84095F482CDCDB2E00B06AAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84095F1F2CDCDB2B00B06AAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84095F262CDCDB2C00B06AAB;
+			remoteInfo = LocalPushNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84095F272CDCDB2C00B06AAB /* LocalPushNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalPushNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84095F3D2CDCDB2E00B06AAB /* LocalPushNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalPushNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84095F472CDCDB2E00B06AAB /* LocalPushNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalPushNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		84095F4F2CDCDB2E00B06AAB /* Exceptions for "LocalPushNotification" folder in "LocalPushNotification" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 84095F262CDCDB2C00B06AAB /* LocalPushNotification */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		84095F292CDCDB2C00B06AAB /* LocalPushNotification */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				84095F4F2CDCDB2E00B06AAB /* Exceptions for "LocalPushNotification" folder in "LocalPushNotification" target */,
+			);
+			path = LocalPushNotification;
+			sourceTree = "<group>";
+		};
+		84095F402CDCDB2E00B06AAB /* LocalPushNotificationTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LocalPushNotificationTests;
+			sourceTree = "<group>";
+		};
+		84095F4A2CDCDB2E00B06AAB /* LocalPushNotificationUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LocalPushNotificationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84095F242CDCDB2C00B06AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84095F3A2CDCDB2E00B06AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84095F442CDCDB2E00B06AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84095F1E2CDCDB2B00B06AAB = {
+			isa = PBXGroup;
+			children = (
+				84095F292CDCDB2C00B06AAB /* LocalPushNotification */,
+				84095F402CDCDB2E00B06AAB /* LocalPushNotificationTests */,
+				84095F4A2CDCDB2E00B06AAB /* LocalPushNotificationUITests */,
+				84095F282CDCDB2C00B06AAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84095F282CDCDB2C00B06AAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84095F272CDCDB2C00B06AAB /* LocalPushNotification.app */,
+				84095F3D2CDCDB2E00B06AAB /* LocalPushNotificationTests.xctest */,
+				84095F472CDCDB2E00B06AAB /* LocalPushNotificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84095F262CDCDB2C00B06AAB /* LocalPushNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84095F502CDCDB2E00B06AAB /* Build configuration list for PBXNativeTarget "LocalPushNotification" */;
+			buildPhases = (
+				84095F232CDCDB2C00B06AAB /* Sources */,
+				84095F242CDCDB2C00B06AAB /* Frameworks */,
+				84095F252CDCDB2C00B06AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				84095F292CDCDB2C00B06AAB /* LocalPushNotification */,
+			);
+			name = LocalPushNotification;
+			packageProductDependencies = (
+			);
+			productName = LocalPushNotification;
+			productReference = 84095F272CDCDB2C00B06AAB /* LocalPushNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84095F3C2CDCDB2E00B06AAB /* LocalPushNotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84095F552CDCDB2E00B06AAB /* Build configuration list for PBXNativeTarget "LocalPushNotificationTests" */;
+			buildPhases = (
+				84095F392CDCDB2E00B06AAB /* Sources */,
+				84095F3A2CDCDB2E00B06AAB /* Frameworks */,
+				84095F3B2CDCDB2E00B06AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84095F3F2CDCDB2E00B06AAB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				84095F402CDCDB2E00B06AAB /* LocalPushNotificationTests */,
+			);
+			name = LocalPushNotificationTests;
+			packageProductDependencies = (
+			);
+			productName = LocalPushNotificationTests;
+			productReference = 84095F3D2CDCDB2E00B06AAB /* LocalPushNotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84095F462CDCDB2E00B06AAB /* LocalPushNotificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84095F582CDCDB2E00B06AAB /* Build configuration list for PBXNativeTarget "LocalPushNotificationUITests" */;
+			buildPhases = (
+				84095F432CDCDB2E00B06AAB /* Sources */,
+				84095F442CDCDB2E00B06AAB /* Frameworks */,
+				84095F452CDCDB2E00B06AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84095F492CDCDB2E00B06AAB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				84095F4A2CDCDB2E00B06AAB /* LocalPushNotificationUITests */,
+			);
+			name = LocalPushNotificationUITests;
+			packageProductDependencies = (
+			);
+			productName = LocalPushNotificationUITests;
+			productReference = 84095F472CDCDB2E00B06AAB /* LocalPushNotificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84095F1F2CDCDB2B00B06AAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					84095F262CDCDB2C00B06AAB = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					84095F3C2CDCDB2E00B06AAB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 84095F262CDCDB2C00B06AAB;
+					};
+					84095F462CDCDB2E00B06AAB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 84095F262CDCDB2C00B06AAB;
+					};
+				};
+			};
+			buildConfigurationList = 84095F222CDCDB2B00B06AAB /* Build configuration list for PBXProject "LocalPushNotification" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84095F1E2CDCDB2B00B06AAB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 84095F282CDCDB2C00B06AAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84095F262CDCDB2C00B06AAB /* LocalPushNotification */,
+				84095F3C2CDCDB2E00B06AAB /* LocalPushNotificationTests */,
+				84095F462CDCDB2E00B06AAB /* LocalPushNotificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84095F252CDCDB2C00B06AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84095F3B2CDCDB2E00B06AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84095F452CDCDB2E00B06AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84095F232CDCDB2C00B06AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84095F392CDCDB2E00B06AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84095F432CDCDB2E00B06AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84095F3F2CDCDB2E00B06AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84095F262CDCDB2C00B06AAB /* LocalPushNotification */;
+			targetProxy = 84095F3E2CDCDB2E00B06AAB /* PBXContainerItemProxy */;
+		};
+		84095F492CDCDB2E00B06AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84095F262CDCDB2C00B06AAB /* LocalPushNotification */;
+			targetProxy = 84095F482CDCDB2E00B06AAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84095F512CDCDB2E00B06AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LocalPushNotification/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.localpush.LocalPushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84095F522CDCDB2E00B06AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LocalPushNotification/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.localpush.LocalPushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84095F532CDCDB2E00B06AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84095F542CDCDB2E00B06AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84095F562CDCDB2E00B06AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.localpush.LocalPushNotificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalPushNotification.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LocalPushNotification";
+			};
+			name = Debug;
+		};
+		84095F572CDCDB2E00B06AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.localpush.LocalPushNotificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalPushNotification.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LocalPushNotification";
+			};
+			name = Release;
+		};
+		84095F592CDCDB2E00B06AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.localpush.LocalPushNotificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LocalPushNotification;
+			};
+			name = Debug;
+		};
+		84095F5A2CDCDB2E00B06AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.localpush.LocalPushNotificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LocalPushNotification;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84095F222CDCDB2B00B06AAB /* Build configuration list for PBXProject "LocalPushNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84095F532CDCDB2E00B06AAB /* Debug */,
+				84095F542CDCDB2E00B06AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84095F502CDCDB2E00B06AAB /* Build configuration list for PBXNativeTarget "LocalPushNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84095F512CDCDB2E00B06AAB /* Debug */,
+				84095F522CDCDB2E00B06AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84095F552CDCDB2E00B06AAB /* Build configuration list for PBXNativeTarget "LocalPushNotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84095F562CDCDB2E00B06AAB /* Debug */,
+				84095F572CDCDB2E00B06AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84095F582CDCDB2E00B06AAB /* Build configuration list for PBXNativeTarget "LocalPushNotificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84095F592CDCDB2E00B06AAB /* Debug */,
+				84095F5A2CDCDB2E00B06AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84095F1F2CDCDB2B00B06AAB /* Project object */;
+}
